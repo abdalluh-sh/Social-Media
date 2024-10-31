@@ -1,0 +1,181 @@
+
+/* header font import*/
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Itim&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* Header Style Code*/
+header{
+    color: #ffffff;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10%;
+    user-select: none;
+
+}
+
+header a{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Arima", system-ui;
+    font-weight: 800;
+    font-size: 30px;
+    transition: 0.3s;
+    padding: 20px;
+}
+header a:hover{
+    color: #ADB5BD;
+}
+
+.Social{
+    font-weight: 500;
+}
+
+/* main Style Code */
+main{
+    background-image: url('Background2.jpg');
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+
+.links-box a{ 
+    font-family: "Itim", cursive;
+    background-color: #00000082;
+    color: #ffffff;
+    max-width: 40%;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 25px 30px;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.3s;
+} 
+
+footer{
+    color: #ffffff;
+    background-color: #000000;
+    padding: 20px ;
+}
+.copyright{
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500
+}
+
+/* icon hover */
+.facebook:hover{
+    color:#0764FC ;
+}
+.whatsapp:hover{
+    color:#0AC309 ;
+}
+.instagram:hover{
+    color:#FE4F08 ;
+}
+.telegram:hover{
+    color:#2EAAE8 ;
+}
+.twitter:hover{
+    color:#31ACE1 ;
+}
+.github:hover{
+    color: #15181E;
+}
+.linkedin:hover{
+    color:#0A7CB8 ;
+}
+.snapchat:hover{
+    color:#FFFC0C ;
+}
+.paypal:hover{
+    color:#08368B ;
+}
+.gmail:hover{
+    color:#F55041 ;
+}
+
+
+
+@media (max-width:500px ){
+    header{
+        gap: 2%;
+        padding: 20px;
+    }
+    main{
+        padding: 30px 0;
+    }
+    header a{
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    .links-box a{ 
+        max-width: 80%;
+        margin: 15px auto;
+        font-size: 20px;
+    } 
+    .copyright{
+        text-align: center;
+        font-size: 15px;
+    }
+}
+@media (min-width: 500px) and (max-width: 700px){
+    header{
+        gap: 3%;
+        padding: 20px;
+    }
+    header a{
+        font-size: 25px;
+        padding: 0 50px;
+    }
+    main{
+        padding: 50px;
+    }
+    .links-box a{ 
+        max-width: 65%;
+        margin: 10px auto;
+        font-size: 20px;
+    } 
+    .copyright{
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 900px){
+    header{
+        gap: 5%;
+        padding: 20px;
+    }
+    header a{
+        font-size: 25px;
+        padding: 0 50px;
+    }
+    .links-box a{ 
+        max-width: 55%;
+        margin: 10px auto;
+        font-size: 25px;
+    } 
+    .copyright{
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
